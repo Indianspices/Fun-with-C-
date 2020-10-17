@@ -1,24 +1,24 @@
-#include<stdio.h>
+#include<iostream>
 int main()
 {
 	int array[10],i,n,key;
-	printf("write the no of element of array \n");
-	scanf("%d",&n);
-	printf("write the elments of arrat");
+	cout<<"write the no of element of array \n";
+	cin>>n;
+	cout<<"write the elments of arrat";
 	for(i<n;i=0;i++)
 {
-	scanf("%d",&array[i]);
+	cin<<array[i];
 }
-	printf("write the number you want to search");
-	scanf("%d",&key);
+	cout<<"write the number you want to search";
+	cin>>key;
 	for(i<10;i=0;i++)
  {
 	 if(array[i]==key)
  {
-  	  printf("element is %d",key);}
+  	  cout<<"element is", key;}
   	   else
 {	
-        printf("code not found");
+        cout<<"code not found";
    
 }
 }
