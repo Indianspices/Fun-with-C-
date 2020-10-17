@@ -2,11 +2,11 @@
 void main()
 {
 	int i,j,n,swap,ar[200];
-	printf("write the size of array : \n");
-	scanf("%d",&n);
+	cout<<"write the size of array : \n";
+	cin>>n;
 	for(i=0;i<n;i++){
-		printf("WRITE THE ELEMENT OF ARRAY : \n");
-		scanf("%d",&ar[i]);
+		cout<<"WRITE THE ELEMENT OF ARRAY : \n";
+		cin>>ar[i]);
 	}
 	for(i=0;i<n;i++)
 	{
@@ -14,16 +14,14 @@ void main()
 		{
 			if(ar[i]>ar[j])
 			{
-				swap=ar[i];
-				ar[i]=ar[j];
-				ar[j]=swap;
+				swap(a[i],a[j]);
 			}
 			
 		}
 	
 	}
 	for(i=0;i<n;i++){
-		printf("%d",ar[i]);
-		printf("\t");
+		cout<<ar[i]);
+		cout<<"\t";
 	}
 }
