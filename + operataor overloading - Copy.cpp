@@ -7,8 +7,7 @@ using namespace std;
  		public :
  			void setdata(int x,int y)
  			{
- 				a=x;
- 				b=y;
+ 				a=x; b=y;
  				
 			 }
 			 void showdata()
@@ -28,8 +27,8 @@ using namespace std;
  {
  	goal g1,g2;
  	g1.setdata(45,56);
- 	g2=+g1;//g2=operator +(g1)
- 	g2.showdata();
+ 	g2=+g1;//g2=operator +(g1) 
+	g2.showdata();//Here we are calling the show function using object of goal
  	
  	
  }
