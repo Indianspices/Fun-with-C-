@@ -26,7 +26,7 @@ using namespace std;
  int main()
  {
  	goal g1,g2;
- 	g1.setdata(45,56);
+ 	g1.setdata(44,57);
  	g2=+g1;//g2=operator +(g1) 
 	g2.showdata();//Here we are calling the show function using object of goal
  	
