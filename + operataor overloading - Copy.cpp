@@ -18,7 +18,7 @@ using namespace std;
 			 friend goal operator +(goal);
  };
 
-//Operator overloading
+//Operator overloading of +
  goal operator +(goal g)
  {
  	goal temp;
@@ -36,5 +36,5 @@ using namespace std;
  	
  }
  
-
+//Operator overloading allows to overload any operator and change its functionality
 
