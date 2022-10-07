@@ -1,4 +1,7 @@
+#including Library
 #include<stdio.h>
+
+#Void function
 void main()
 {
 	int i,j,n,swap,ar[200];
@@ -20,6 +23,7 @@ void main()
 		}
 	
 	}
+	#Looping
 	for(i=0;i<n;i++){
 		cout<<ar[i]);
 		cout<<"\t";
