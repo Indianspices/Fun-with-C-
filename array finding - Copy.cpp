@@ -4,10 +4,10 @@ int main()
 	vector<int> arr;
 	cout<<"write the no of element of array \n";
 	cin>>n;
-	cout<<"write the elments of array";
 	
-	for(i<n;i=0;i++)
+	for(i=0;i<n;i++)
 {
+	cout<<"write the elments of array"<<i+1;
 	int number;
 	cin>>number;
 	arr.push_back(number);
@@ -15,7 +15,7 @@ int main()
 	
 	cout<<"write the number you want to search";
 	cin>>key;
-	for(i<10;i=0;i++)
+	for(i=0;i<n;i++)
  {
 	 if(arr[i]==key)
  {
