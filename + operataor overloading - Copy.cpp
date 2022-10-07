@@ -1,3 +1,4 @@
+//Importing library
 #include<iostream>
 using namespace std;
  class goal
@@ -16,6 +17,8 @@ using namespace std;
 			 }
 			 friend goal operator +(goal);
  };
+
+//Operator overloading
  goal operator +(goal g)
  {
  	goal temp;
