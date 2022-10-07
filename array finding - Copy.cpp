@@ -1,19 +1,23 @@
-#include<iostream>
+#include<bits/stdc++.h>
 int main()
 {
-	int array[10],i,n,key;
+	vector<int> arr;
 	cout<<"write the no of element of array \n";
 	cin>>n;
-	cout<<"write the elments of arrat";
+	cout<<"write the elments of array";
+	
 	for(i<n;i=0;i++)
 {
-	cin<<array[i];
+	int number;
+	cin>>number;
+	arr.push_back(number);
 }
+	
 	cout<<"write the number you want to search";
 	cin>>key;
 	for(i<10;i=0;i++)
  {
-	 if(array[i]==key)
+	 if(arr[i]==key)
  {
   	  cout<<"element is", key;}
   	   else
