@@ -28,3 +28,4 @@ int main()
 }
 }
 }
+// Arrays are contigious block of memory where same type of data can be stored. But  there is the  issue with the array as it in not dynamic in nature. The size  of the array can not be changed ones it s initialized
