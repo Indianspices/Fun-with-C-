@@ -3,8 +3,10 @@
 using namespace std;
  class goal
  {
+	 //private key for making the variavle private
  	private :
  		int a,b;
+	 //public defines can be acceible by any one
  		public :
  			void setdata(int x,int y)
  			{
