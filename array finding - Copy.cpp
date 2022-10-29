@@ -11,6 +11,7 @@ int main()
 	int number;
 	cin>>number;
 	arr.push_back(number);
+		#Pussing the number in the vector arr
 }
 	
  #Taking the key element for search and doing linear search
