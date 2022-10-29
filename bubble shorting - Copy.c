@@ -10,6 +10,7 @@ void main()
 	for(i=0;i<n;i++){
 		cout<<"WRITE THE ELEMENT OF ARRAY : \n";
 		cin>>ar[i]);
+		#Taking the input
 	}
 	for(i=0;i<n;i++)
 	{
@@ -18,6 +19,8 @@ void main()
 			if(ar[i]>ar[j])
 			{
 				swap(a[i],a[j]);
+				#Swapping the elements
+				
 			}
 			
 		}
