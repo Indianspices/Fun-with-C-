@@ -1,4 +1,5 @@
 #include<bits/stdc++.h>
+#For importing all the necessary libraries
 int main()
 {       #using vector that build on Singly linkedIn list
 	vector<int> arr;
