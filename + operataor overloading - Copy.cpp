@@ -20,7 +20,7 @@ using namespace std;
 			 friend goal operator +(goal);
  };
 
-//Operator overloading of +
+//Operator overloading of + for further use in different form
  goal operator +(goal g)
  {
  	goal temp;
