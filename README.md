@@ -8,3 +8,6 @@ Vector is implemented using singly linkedlist, as it is build on top of singly L
 It is part of C++ STL, and can be used by vector<dtype> name;
   
 It is the implementation of singly link list at the backend.
+  
+##List
+It is the implementation of doubly link list at the backend.
