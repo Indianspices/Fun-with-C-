@@ -1,5 +1,5 @@
 #including Library
-#include<stdio.h>
+#include<bits/stdc++.h>
 
 #Void function
 void main()
