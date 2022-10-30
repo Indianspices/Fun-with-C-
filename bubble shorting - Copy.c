@@ -1,7 +1,7 @@
-#including Library
+//Including the pacakges needed for the program
 #include<bits/stdc++.h>
 
-#Void function
+//Void function
 void main()
 {
 	int i,j,n,swap,ar[200];
@@ -26,7 +26,7 @@ void main()
 		}
 	
 	}
-	#Looping
+	//Looping through the array
 	for(i=0;i<n;i++){
 		cout<<ar[i]);
 		cout<<"\t";
