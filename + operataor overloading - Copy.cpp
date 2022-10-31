@@ -1,4 +1,4 @@
-//Importing library
+//Importing library for the use of important functions
 #include<bits/stdc++.h>
 using namespace std;
  class goal
